@@ -1,0 +1,55 @@
+/* General styles */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header
+{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+header nav
+{
+    position: relative;
+    overflow: hidden;
+}
+
+header nav ul
+{
+    list-style-type: none;
+}
+
+header nav ul li a
+{
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 8px 34px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover
+{
+    transition: 0.3s ease-in-out;
+    background-color: #c0c0c0;
+    text-decoration-line: underline;
+}
+
+/* Footer styles */
+footer
+{
+    position: relative;
+    bottom: 0;
+    height: 180px;
+    width: 100%;
+    background-color: lightgray;
+}
